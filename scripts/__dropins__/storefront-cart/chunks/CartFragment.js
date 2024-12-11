@@ -67,10 +67,6 @@ fragment CartFragment on Cart {
       currency
       value
     }
-    grand_total_excluding_tax {
-      currency
-      value
-    }
     applied_taxes {
       label,
       amount {
@@ -96,7 +92,6 @@ fragment CartFragment on Cart {
       uid
       quantity
       is_available
-      not_available_message
       errors {
         code
         message
@@ -129,10 +124,6 @@ fragment CartFragment on Cart {
             currency
           }
           label
-        }
-        original_row_total{
-          value
-          currency
         }
       }
   
