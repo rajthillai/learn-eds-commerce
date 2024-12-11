@@ -1,0 +1,5 @@
+mountpoints:
+  /: https://adobe.sharepoint.com/:f:/r/sites/acs-ccsaas-eds/Shared%20Documents/ccsaas-eds?csf=1&web=1&e=uQIs0t
+
+folders:
+  /products/: /products/default
